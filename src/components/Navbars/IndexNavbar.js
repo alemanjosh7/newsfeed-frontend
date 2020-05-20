@@ -140,7 +140,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/CreativeTim"
+                  href="#"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow us on Twitter"
@@ -152,7 +152,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.facebook.com/CreativeTim"
+                  href="#"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Like us on Facebook"
@@ -164,7 +164,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.instagram.com/CreativeTimOfficial"
+                  href="#"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow us on Instagram"
@@ -183,24 +183,24 @@ class ComponentsNavbar extends React.Component {
                   onClick={(e) => e.preventDefault()}
                 >
                   <i className="fa fa-cogs d-lg-none d-xl-none" />
-                  Getting started
+                  Empieza ahora
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">
-                  <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/tutorial">
+                  <DropdownItem href="#">
                     <i className="tim-icons icon-paper" />
-                    Documentation
+                    Noticias
                   </DropdownItem>
                   <DropdownItem tag={Link} to="/register-page">
                     <i className="tim-icons icon-bullet-list-67" />
-                    Register Page
+                    Registrarse
                   </DropdownItem>
                   <DropdownItem tag={Link} to="/landing-page">
                     <i className="tim-icons icon-image-02" />
-                    Landing Page
+                    Iniciar sesión
                   </DropdownItem>
                   <DropdownItem tag={Link} to="/profile-page">
                     <i className="tim-icons icon-single-02" />
-                    Profile Page
+                    Perfil
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
