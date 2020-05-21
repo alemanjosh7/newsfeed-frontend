@@ -186,7 +186,7 @@ class ComponentsNavbar extends React.Component {
                   Empieza ahora
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">
-                  <DropdownItem href="#">
+                  <DropdownItem tag={Link} to="/news-page">
                     <i className="tim-icons icon-paper" />
                     Noticias
                   </DropdownItem>
@@ -194,7 +194,7 @@ class ComponentsNavbar extends React.Component {
                     <i className="tim-icons icon-bullet-list-67" />
                     Registrarse
                   </DropdownItem>
-                  <DropdownItem tag={Link} to="/landing-page">
+                  <DropdownItem tag={Link} to="/login-page">
                     <i className="tim-icons icon-image-02" />
                     Iniciar sesión
                   </DropdownItem>
